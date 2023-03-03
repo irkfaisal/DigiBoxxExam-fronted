@@ -13,10 +13,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route>
-            <Route path='/' element={<Home />} />
+            {/* <Route path='/' element={<Home />} /> */}
             {/* Protected Routing start */}
             <Route path='/signin' element={<SignUp />} />
-            <Route path='/login' element={<Login />} />
+            <Route path='/' element={<Login />} />
             <Route path='/candidateList' element={<CandidateList />} />
             <Route path='/candidateDetails' element={<CandidateDetais />} />
           </Route>
